@@ -8,7 +8,8 @@ Sample Content </ br>
 
 Theme: Tech
 
-- earbuds
-- laptop
-- sample application
-- product showcase
+- Earbuds
+- Laptop
+- Camera
+- Smart watch
+- Switch
