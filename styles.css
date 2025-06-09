@@ -206,33 +206,33 @@ input[type="email"] {
 /* Sections */
 
 #home {
-  background-image: url("assets/homebg.png"); /* Replace with your image path */
-  background-size: cover; /* Make the image cover the whole section */
-  background-position: center; /* Center the image */
+  background-image: url("assets/homebg.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
 
 #features {
-  background-image: url("assets/featuresbg.png"); /* Replace with your image path */
-  background-size: cover; /* Make the image cover the whole section */
-  background-position: center; /* Center the image */
+  background-image: url("assets/featuresbg.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
 
 #how-it-works {
-  background-image: url("assets/hiwbg.png"); /* Replace with your image path */
-  background-size: cover; /* Make the image cover the whole section */
-  background-position: center; /* Center the image */
+  background-image: url("assets/hiwbg.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
 
 #pricing {
-  background-image: url("assets/featuresbg.png"); /* Replace with your image path */
-  background-size: cover; /* Make the image cover the whole section */
-  background-position: center; /* Center the image */
+  background-image: url("assets/featuresbg.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -246,7 +246,7 @@ input[type="email"] {
 .home-right-side {
   position: relative;
   width: 35rem;
-  height: 28rem; /* Adjust as needed for your images */
+  height: 28rem;
   display: flex;
   align-items: center;
   justify-content: center;
