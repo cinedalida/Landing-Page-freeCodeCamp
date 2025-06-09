@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -33,21 +37,23 @@
           </p>
         </div>
         <div class="home__button">
-          <a
-            href="https://www.itech.ph/product/logitech-g502-lightspeed-wireless-gaming-mouse/"
+          <button
             class="btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            >BUY NOW</a
+            onclick="window.open('https://www.itech.ph/product/logitech-g502-lightspeed-wireless-gaming-mouse/', '_blank', 'noopener,noreferrer')"
+            type="button"
           >
+            BUY NOW
+          </button>
         </div>
       </section>
 
       <section id="features">
         <div class="features__container">
-          <h2>Features</h2>
-          <p>Here are the amazing features of our product.</p>
-          <div class="features__content">
+          <div class="features__content1">
+            <h2>Features</h2>
+            <p>Here are the amazing features of our product.</p>
+          </div>
+          <div class="features__content2">
             <ul>
               <li>
                 LIGHTSPEED Wireless — Ultra-fast 1ms response time for lag-free
@@ -75,7 +81,10 @@
       </section>
 
       <section id="how-it-works">
-        <h2>How It Works</h2>
+        <div class="how-it-works__content">
+          <h2>How It Works</h2>
+        </div>
+
         <iframe
           id="video"
           width="560"
@@ -89,16 +98,19 @@
       </section>
 
       <section id="pricing">
-        <h2>Pricing</h2>
-        <p>Choose a plan that fits your needs.</p>
+        <div class="pricing__content">
+          <h2>Pricing</h2>
+          <p>Choose a plan that fits your needs.</p>
+        </div>
 
         <!-- bootstrap horizontal scroll -->
         <div class="carousel-wrapper">
           <button class="carousel-arrow left" id="carousel-left">
-            &#8592;
+            <span class="material-icons">chevron_left</span>
           </button>
           <div class="carousel-container" id="carousel-container">
             <div class="card">
+              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Basic</h5>
                 <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
@@ -107,6 +119,7 @@
               </div>
             </div>
             <div class="card">
+              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Basic</h5>
                 <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
@@ -115,6 +128,7 @@
               </div>
             </div>
             <div class="card">
+              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Basic</h5>
                 <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
@@ -123,6 +137,7 @@
               </div>
             </div>
             <div class="card">
+              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Basic</h5>
                 <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
@@ -131,6 +146,7 @@
               </div>
             </div>
             <div class="card">
+              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Basic</h5>
                 <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
@@ -142,7 +158,7 @@
           </div>
 
           <button class="carousel-arrow right" id="carousel-right">
-            &#8594;
+            <span class="material-icons">chevron_right</span>
           </button>
         </div>
       </section>
@@ -159,6 +175,13 @@
           />
           <input type="submit" id="submit" value="Get Started" />
         </form>
+      </section>
+
+      <section class="footer">
+        <div class="footer__content">
+          <p class="subject">freeCodeCamp: Responsive Website</p>
+          <p class="myname">Francine Dalida</p>
+        </div>
       </section>
     </main>
     <script src="script.js"></script>
