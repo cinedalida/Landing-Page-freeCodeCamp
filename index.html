@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -26,155 +30,214 @@
     <main>
       <section id="home">
         <div class="home__container">
-          <h1 class="main1">Built for Speed.</h1>
-          <h1 class="main2">designed for precision</h1>
-          <p class="home__content1-Bold">
-            Logitech G502 Lightspeed Wireless Gaming Mouse
-          </p>
-          <p class="home__content1">
-            Built to give you the ultimate edge, whether you're in an intense
-            tournament or grinding competitive ranks at home.
-          </p>
-        </div>
-        <div class="home__button">
-          <button
-            class="btn"
-            onclick="window.open('https://www.itech.ph/product/logitech-g502-lightspeed-wireless-gaming-mouse/', '_blank', 'noopener,noreferrer')"
-            type="button"
-          >
-            BUY NOW
-          </button>
+          <div class="right-side">
+            <h1 class="main1">Built for Speed.</h1>
+            <h1 class="main2">designed for <span class="gradient-text">precision</span></h1>
+            <p class="home__content1-Bold">
+              Logitech G502 Lightspeed Wireless Gaming Mouse
+            </p>
+            <p class="home__content1">
+              Built to give you the ultimate edge, whether you're in an intense
+              tournament or grinding competitive ranks at home.
+            </p>
+            <div class="home__button">
+              <button
+                class="btn-hero"
+                onclick="window.open('https://www.itech.ph/product/logitech-g502-lightspeed-wireless-gaming-mouse/', '_blank', 'noopener,noreferrer')"
+                type="button"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+          <div class="left-side">
+            <img src="assets/homeAsset.png" alt="Plan Image" class="img-home" />
+          </div>
         </div>
       </section>
 
       <section id="features">
         <div class="features__container">
-          <div class="features__content1">
-            <h2>Features</h2>
-            <p>Here are the amazing features of our product.</p>
+          <div class="right-side">
+            <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
           </div>
-          <div class="features__content2">
-            <ul>
-              <li>
-                LIGHTSPEED Wireless — Ultra-fast 1ms response time for lag-free
-                gameplay
-              </li>
-              <li>
-                HERO 25K Sensor — 25,600 DPI with pixel-perfect accuracy and
-                zero smoothing
-              </li>
-              <li>
-                11 Programmable Buttons — Customize macros, combos, or
-                quick-access keys
-              </li>
-              <li>
-                Adjustable Weights — Tune the weight and balance with up to 16g
-                of optional weights
-              </li>
-              <li>
-                Advanced RGB Lighting — Sync effects with your entire setup
-                using Logitech G HUB
-              </li>
-            </ul>
+          <div class="left-side">
+            <div class="features__content1">
+              <h2>Features.</h2>
+              <p>Here are the amazing features of our product.</p>
+            </div>
+            <div class="features__content2">
+              <ul>
+                <li>
+                  LIGHTSPEED Wireless — Ultra-fast 1ms response time for
+                  lag-free gameplay
+                </li>
+                <li>
+                  HERO 25K Sensor — 25,600 DPI with pixel-perfect accuracy and
+                  zero smoothing
+                </li>
+                <li>
+                  11 Programmable Buttons — Customize macros, combos, or
+                  quick-access keys
+                </li>
+                <li>
+                  Adjustable Weights — Tune the weight and balance with up to
+                  16g of optional weights
+                </li>
+                <li>
+                  Advanced RGB Lighting — Sync effects with your entire setup
+                  using Logitech G HUB
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
 
       <section id="how-it-works">
-        <div class="how-it-works__content">
-          <h2>How It Works</h2>
-        </div>
+        <div class="how-it-works__container">
+          <div class="how-it-works__content">
+            <h2>How It Works.</h2>
+          </div>
 
-        <iframe
-          id="video"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/TyiYBk8pcig"
-          title="Product Video"
-          frameborder="0"
-          allowfullscreen
-        >
-        </iframe>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/TyiYBk8pcig"
+            title="Product Video"
+            frameborder="0"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
       </section>
 
       <section id="pricing">
-        <div class="pricing__content">
-          <h2>Pricing</h2>
-          <p>Choose a plan that fits your needs.</p>
-        </div>
-
-        <!-- bootstrap horizontal scroll -->
-        <div class="carousel-wrapper">
-          <button class="carousel-arrow left" id="carousel-left">
-            <span class="material-icons">chevron_left</span>
-          </button>
-          <div class="carousel-container" id="carousel-container">
-            <div class="card">
-              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title">Basic</h5>
-                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
-                <p class="card-text">Essential features for personal use.</p>
-                <a href="#" class="btn btn-primary">Choose</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title">Basic</h5>
-                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
-                <p class="card-text">Essential features for personal use.</p>
-                <a href="#" class="btn btn-primary">Choose</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title">Basic</h5>
-                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
-                <p class="card-text">Essential features for personal use.</p>
-                <a href="#" class="btn btn-primary">Choose</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title">Basic</h5>
-                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
-                <p class="card-text">Essential features for personal use.</p>
-                <a href="#" class="btn btn-primary">Choose</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="your-image.jpg" alt="Plan Image" class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title">Basic</h5>
-                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
-                <p class="card-text">Essential features for personal use.</p>
-                <a href="#" class="btn btn-primary">Choose</a>
-              </div>
-            </div>
-            <!-- Add more cards as needed -->
+        <div class="pricing__container">
+          <div class="pricing__content">
+            <h2>Pricing.</h2>
+            <p>Choose a plan that fits your needs.</p>
           </div>
 
-          <button class="carousel-arrow right" id="carousel-right">
-            <span class="material-icons">chevron_right</span>
-          </button>
+          <!-- bootstrap horizontal scroll -->
+          <div class="carousel-wrapper">
+            <button class="carousel-arrow left" id="carousel-left">
+              <span class="material-icons">chevron_left</span>
+            </button>
+            <div class="carousel-container" id="carousel-container">
+              <div class="card">
+                <img
+                  src="your-image.jpg"
+                  alt="Plan Image"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Basic</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                  <p class="card-text">Essential features for personal use.</p>
+                  <a href="#" class="btn btn-primary">Choose</a>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="your-image.jpg"
+                  alt="Plan Image"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Basic</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                  <p class="card-text">Essential features for personal use.</p>
+                  <a href="#" class="btn btn-primary">Choose</a>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="your-image.jpg"
+                  alt="Plan Image"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Basic</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                  <p class="card-text">Essential features for personal use.</p>
+                  <a href="#" class="btn btn-primary">Choose</a>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="your-image.jpg"
+                  alt="Plan Image"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Basic</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                  <p class="card-text">Essential features for personal use.</p>
+                  <a href="#" class="btn btn-primary">Choose</a>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="your-image.jpg"
+                  alt="Plan Image"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Basic</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                  <p class="card-text">Essential features for personal use.</p>
+                  <a href="#" class="btn btn-primary">Choose</a>
+                </div>
+              </div>
+              <!-- Add more cards as needed -->
+            </div>
+
+            <button class="carousel-arrow right" id="carousel-right">
+              <span class="material-icons">chevron_right</span>
+            </button>
+          </div>
         </div>
       </section>
 
       <section id="contact">
-        <h2>Subscribe for Updates</h2>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email address"
-            required
-          />
-          <input type="submit" id="submit" value="Get Started" />
-        </form>
+        <div class="contact__container">
+          <h2>Subscribe.</h2>
+          <p class="contact__content1">
+            Subscribe to get the latest update on Logitech!
+          </p>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button class="submit" type="submit">Get Started</button>
+          </form>
+          <div class="social-icons">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-facebook"></i></i
+            ></a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-square-twitter"></i></i
+            ></a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-instagram"></i></i
+            ></a>
+          </div>
+        </div>
       </section>
 
       <section class="footer">
