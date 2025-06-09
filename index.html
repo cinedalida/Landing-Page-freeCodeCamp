@@ -9,18 +9,69 @@
 
   <body>
     <header id="header">
-      <img id="header-img" src="logo.png" alt="Company Logo" />
-      <nav id="nav-bar">
-        <a class="nav-link" href="#features">Features</a>
-        <a class="nav-link" href="#how-it-works">How It Works</a>
-        <a class="nav-link" href="#pricing">Pricing</a>
-      </nav>
+      <div class="header__container">
+        <img id="header-img" src="/assets/logo.png" alt="Company Logo" />
+        <nav id="nav-bar">
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#how-it-works">How It Works</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </nav>
+      </div>
     </header>
 
     <main>
+      <section id="home">
+        <div class="home__container">
+          <h1 class="main1">Built for Speed.</h1>
+          <h1 class="main2">designed for precision</h1>
+          <p class="home__content1-Bold">
+            Logitech G502 Lightspeed Wireless Gaming Mouse
+          </p>
+          <p class="home__content1">
+            Built to give you the ultimate edge, whether you're in an intense
+            tournament or grinding competitive ranks at home.
+          </p>
+        </div>
+        <div class="home__button">
+          <a
+            href="https://www.itech.ph/product/logitech-g502-lightspeed-wireless-gaming-mouse/"
+            class="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            >BUY NOW</a
+          >
+        </div>
+      </section>
+
       <section id="features">
-        <h2>Features</h2>
-        <p>Here are the amazing features of our product.</p>
+        <div class="features__container">
+          <h2>Features</h2>
+          <p>Here are the amazing features of our product.</p>
+          <div class="features__content">
+            <ul>
+              <li>
+                LIGHTSPEED Wireless — Ultra-fast 1ms response time for lag-free
+                gameplay
+              </li>
+              <li>
+                HERO 25K Sensor — 25,600 DPI with pixel-perfect accuracy and
+                zero smoothing
+              </li>
+              <li>
+                11 Programmable Buttons — Customize macros, combos, or
+                quick-access keys
+              </li>
+              <li>
+                Adjustable Weights — Tune the weight and balance with up to 16g
+                of optional weights
+              </li>
+              <li>
+                Advanced RGB Lighting — Sync effects with your entire setup
+                using Logitech G HUB
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section id="how-it-works">
@@ -29,7 +80,7 @@
           id="video"
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          src="https://www.youtube.com/embed/TyiYBk8pcig"
           title="Product Video"
           frameborder="0"
           allowfullscreen
@@ -40,6 +91,60 @@
       <section id="pricing">
         <h2>Pricing</h2>
         <p>Choose a plan that fits your needs.</p>
+
+        <!-- bootstrap horizontal scroll -->
+        <div class="carousel-wrapper">
+          <button class="carousel-arrow left" id="carousel-left">
+            &#8592;
+          </button>
+          <div class="carousel-container" id="carousel-container">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Basic</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                <p class="card-text">Essential features for personal use.</p>
+                <a href="#" class="btn btn-primary">Choose</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Basic</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                <p class="card-text">Essential features for personal use.</p>
+                <a href="#" class="btn btn-primary">Choose</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Basic</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                <p class="card-text">Essential features for personal use.</p>
+                <a href="#" class="btn btn-primary">Choose</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Basic</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                <p class="card-text">Essential features for personal use.</p>
+                <a href="#" class="btn btn-primary">Choose</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Basic</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$9/mo</h6>
+                <p class="card-text">Essential features for personal use.</p>
+                <a href="#" class="btn btn-primary">Choose</a>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+          </div>
+
+          <button class="carousel-arrow right" id="carousel-right">
+            &#8594;
+          </button>
+        </div>
       </section>
 
       <section id="contact">
@@ -56,5 +161,6 @@
         </form>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
