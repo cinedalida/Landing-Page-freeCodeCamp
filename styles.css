@@ -629,7 +629,7 @@ input[type="email"] {
 /* Responsive Design (Media Query) */
 
 /* MEDIA QUERY: 1280px and above (Desktop - Large) */
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   .main1 {
     font-size: 5rem;
   }
@@ -655,7 +655,7 @@ input[type="email"] {
   .img-features1 {
     width: 40rem;
   }
-}
+} */
 
 /* MEDIA QUERY: 1024px to 1279px (Tablet - Landscape) */
 @media (max-width: 1279px) and (min-width: 1024px) {
